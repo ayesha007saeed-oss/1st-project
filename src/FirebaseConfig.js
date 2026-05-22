@@ -18,7 +18,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 // 2. Phir Analytics Initialize karein (Optional)
-const analytics = getAnalytics(app);
+// const analytics = getAnalytics(app);
 
 // 3. Ab app ban chuka hai, toh console log yahan chalega
 console.log("🔥 Firebase successfully connected!", app.name);
